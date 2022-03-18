@@ -1,12 +1,12 @@
 require("./bootstrap");
 
-import exampleComponent from "./components/ExampleComponent.vue";
+import topPage from "./pages/TopPage.vue";
 
 import { createApp } from "vue";
 
 const app = createApp({
     components: {
-        exampleComponent,
+        topPage,
     },
 });
 
